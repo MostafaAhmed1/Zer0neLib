@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using Zer0ne.WinUI.Utilities;
 
 namespace Zer0ne.WinUI
 {
-    public enum BorderMode
-    {
-        Circle,
-        RoundedCorners,
-        Flat
-    }
+    //public enum BorderMode
+    //{
+    //    Circle,
+    //    RoundedCorners,
+    //    Flat
+    //}
 
     public class ZControlStyle
     {

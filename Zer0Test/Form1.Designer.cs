@@ -70,6 +70,7 @@ namespace Zer0Test
             this.Column6 = new Zer0ne.WinUI.Controls.ZGridTextBoxColumn();
             this.zToggle2 = new Zer0ne.WinUI.Controls.ZToggle();
             this.zTextBox1 = new Zer0ne.WinUI.Controls.ZTextBox();
+            this.zTextBox2 = new Zer0ne.WinUI.Controls.ZTextBox();
             this.pnlTitel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAppIcon)).BeginInit();
             this.zPanel1.SuspendLayout();
@@ -83,23 +84,23 @@ namespace Zer0Test
             // 
             // pnlTitel
             // 
-            this.pnlTitel.Size = new System.Drawing.Size(1062, 31);
+            this.pnlTitel.Size = new System.Drawing.Size(1126, 31);
             this.pnlTitel.Text = "Form1";
             // 
             // btnMinimize
             // 
             this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.Location = new System.Drawing.Point(960, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(1024, 0);
             // 
             // btnMaximize
             // 
             this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.Location = new System.Drawing.Point(994, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(1058, 0);
             // 
             // btnClose
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Location = new System.Drawing.Point(1028, 0);
+            this.btnClose.Location = new System.Drawing.Point(1092, 0);
             // 
             // zButton1
             // 
@@ -244,7 +245,7 @@ namespace Zer0Test
             // zPictureBox1
             // 
             this.zPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.zPictureBox1.BorderCornerStyle = Zer0ne.WinUI.BorderMode.RoundedCorners;
+            this.zPictureBox1.BorderCornerStyle = Zer0ne.WinUI.Utilities.BorderMode.RoundedCorners;
             this.zPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             this.zPictureBox1.BorderSize = 2;
             this.zPictureBox1.GradientAngle = 30F;
@@ -479,9 +480,33 @@ namespace Zer0Test
             this.zTextBox1.TitleVisible = true;
             this.zTextBox1.ValueType = Zer0ne.WinUI.Utilities.TxtDataType.Strings;
             // 
+            // zTextBox2
+            // 
+            this.zTextBox2.BorderSize = 2;
+            this.zTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.zTextBox2.ErrorText = "";
+            this.zTextBox2.Location = new System.Drawing.Point(429, 640);
+            this.zTextBox2.Name = "zTextBox2";
+            this.zTextBox2.PasswordChar = '\0';
+            this.zTextBox2.Radius = 8;
+            this.zTextBox2.ReadOnly = false;
+            this.zTextBox2.RoundedCorners = ((Zer0ne.WinUI.Utilities.CornerZ)((((Zer0ne.WinUI.Utilities.CornerZ.TopLeft | Zer0ne.WinUI.Utilities.CornerZ.BottomRight) 
+            | Zer0ne.WinUI.Utilities.CornerZ.BottomLeft) 
+            | Zer0ne.WinUI.Utilities.CornerZ.TopRight)));
+            this.zTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.zTextBox2.Size = new System.Drawing.Size(319, 56);
+            this.zTextBox2.TabIndex = 31;
+            this.zTextBox2.Text = "zTextBox2";
+            this.zTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.zTextBox2.TitleAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.zTextBox2.TitleText = " Titel";
+            this.zTextBox2.TitleVisible = true;
+            this.zTextBox2.ValueType = Zer0ne.WinUI.Utilities.TxtDataType.Strings;
+            // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1066, 709);
+            this.ClientSize = new System.Drawing.Size(1130, 865);
+            this.Controls.Add(this.zTextBox2);
             this.Controls.Add(this.zTextBox1);
             this.Controls.Add(this.zToggle2);
             this.Controls.Add(this.zGridView1);
@@ -515,6 +540,7 @@ namespace Zer0Test
             this.Controls.SetChildIndex(this.zGridView1, 0);
             this.Controls.SetChildIndex(this.zToggle2, 0);
             this.Controls.SetChildIndex(this.zTextBox1, 0);
+            this.Controls.SetChildIndex(this.zTextBox2, 0);
             this.pnlTitel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picAppIcon)).EndInit();
             this.zPanel1.ResumeLayout(false);
@@ -555,6 +581,7 @@ namespace Zer0Test
         private Zer0ne.WinUI.Controls.ZGridTextBoxColumn Column6;
         private Zer0ne.WinUI.Controls.ZToggle zToggle2;
         private Zer0ne.WinUI.Controls.ZTextBox zTextBox1;
+        private Zer0ne.WinUI.Controls.ZTextBox zTextBox2;
     }
 }
 

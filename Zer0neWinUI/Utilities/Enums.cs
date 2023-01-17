@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing.Design;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Zer0ne.WinUI.Utilities
 {
+
+    public enum BorderMode
+    {
+        Circle,
+        RoundedCorners,
+        Flat
+    }
     public enum PositionZ
     {
         BottomRight = 0,

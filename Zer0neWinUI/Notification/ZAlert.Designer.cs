@@ -55,7 +55,7 @@ namespace Zer0ne.WinUI.Notifications
             // picType
             // 
             this.picType.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.picType.BorderCornerStyle = Zer0ne.WinUI.BorderMode.RoundedCorners;
+            this.picType.BorderCornerStyle = Zer0ne.WinUI.Utilities.BorderMode.RoundedCorners;
             this.picType.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.picType.BorderSize = 0;
             this.picType.GradientAngle = 30F;

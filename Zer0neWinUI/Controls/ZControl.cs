@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -613,6 +614,7 @@ namespace Zer0ne.WinUI.Controls
                 var v = ChildControl as TextBox;
                 v.SelectAll();
             }
+            this.Invalidate();
         }
 
         protected override void OnMouseCaptureChanged(EventArgs e)

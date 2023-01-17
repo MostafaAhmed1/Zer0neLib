@@ -92,3 +92,34 @@ G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CoreCompileInp
 G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
 G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
 G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neWinUI.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neWinUI.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\FluentTransitions.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neData.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\EntityFramework.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neData.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neData.dll.config
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\FluentTransitions.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\EntityFramework.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.AssemblyReference.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZForm.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZMasterForm.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZWaitForm.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDetailsForm.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZInputMessageBox.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.frmChooser.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZMessageBox.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDataForm.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZAlert.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Properties.Resources.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.GenerateResource.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CoreCompileInputs.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb

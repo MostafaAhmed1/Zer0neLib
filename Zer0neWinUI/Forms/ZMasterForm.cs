@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zer0ne.WinUI.Controls;
+using Zer0ne.WinUI.Utilities;
 
 namespace Zer0ne.WinUI.Forms
 {
@@ -60,7 +61,7 @@ namespace Zer0ne.WinUI.Forms
             // picAppIcon
             // 
             this.picAppIcon.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.picAppIcon.BorderCornerStyle = Zer0ne.WinUI.BorderMode.RoundedCorners;
+            this.picAppIcon.BorderCornerStyle = Zer0ne.WinUI.Utilities.BorderMode.RoundedCorners;
             this.picAppIcon.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.picAppIcon.BorderSize = 0;
             this.picAppIcon.Dock = System.Windows.Forms.DockStyle.Left;

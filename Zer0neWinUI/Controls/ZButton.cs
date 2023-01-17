@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
+using Zer0ne.WinUI.Utilities;
 
 namespace Zer0ne.WinUI.Controls
 {

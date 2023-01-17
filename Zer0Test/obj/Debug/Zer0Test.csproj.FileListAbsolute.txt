@@ -50,3 +50,29 @@ G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.xml
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.exe
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.exe.config
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.exe
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0neWinUI.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0neData.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\FluentTransitions.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Newtonsoft.Json.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\EntityFramework.dll
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0neWinUI.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0neData.pdb
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0neData.dll.config
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\FluentTransitions.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Newtonsoft.Json.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\EntityFramework.xml
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.AssemblyReference.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.Form1.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.Properties.Resources.resources
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.GenerateResource.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.CoreCompileInputs.cache
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.exe
+E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.pdb
