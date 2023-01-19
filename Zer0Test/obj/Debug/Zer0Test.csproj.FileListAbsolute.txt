@@ -24,32 +24,6 @@ D:\Projects\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CoreCompile
 D:\Projects\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
 D:\Projects\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.exe
 D:\Projects\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.pdb
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.AssemblyReference.cache
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Form1.resources
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Properties.Resources.resources
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.GenerateResource.cache
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CoreCompileInputs.cache
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.exe.config
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.exe
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.pdb
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neWinUI.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\FluentTransitions.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Newtonsoft.Json.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.dll
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neWinUI.pdb
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.xml
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.pdb
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.dll.config
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\FluentTransitions.xml
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Newtonsoft.Json.xml
-G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.xml
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.exe
-G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.pdb
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.exe.config
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.exe
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\bin\Debug\Zer0Test.pdb
@@ -76,3 +50,29 @@ E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.CoreCom
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.exe
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0Test\obj\Debug\Zer0Test.pdb
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.exe.config
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.exe
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0Test.pdb
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neWinUI.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\FluentTransitions.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Newtonsoft.Json.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.dll
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neWinUI.pdb
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar2.xml
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.pdb
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Zer0neData.dll.config
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\FluentTransitions.xml
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Newtonsoft.Json.xml
+G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.xml
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.AssemblyReference.cache
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Form1.resources
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Properties.Resources.resources
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.GenerateResource.cache
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CoreCompileInputs.cache
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.CopyComplete
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.exe
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.pdb

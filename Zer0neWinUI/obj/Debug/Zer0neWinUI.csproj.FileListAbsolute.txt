@@ -61,37 +61,6 @@ D:\Projects\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CoreC
 D:\Projects\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
 D:\Projects\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
 D:\Projects\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neWinUI.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neWinUI.pdb
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\FluentTransitions.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\EntityFramework.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.pdb
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.dll.config
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.xml
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\FluentTransitions.xml
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.xml
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\EntityFramework.xml
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.AssemblyReference.cache
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZForm.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZMasterForm.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZWaitForm.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDetailsForm.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZInputMessageBox.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.frmChooser.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZMessageBox.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDataForm.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZAlert.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Properties.Resources.resources
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.GenerateResource.cache
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CoreCompileInputs.cache
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
-G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neWinUI.dll
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\Zer0neWinUI.pdb
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
@@ -123,3 +92,34 @@ E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.C
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neWinUI.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neWinUI.pdb
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\FluentTransitions.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\EntityFramework.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.pdb
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Zer0neData.dll.config
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\DevComponents.DotNetBar2.xml
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\FluentTransitions.xml
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\Newtonsoft.Json.xml
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\bin\Debug\EntityFramework.xml
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.AssemblyReference.cache
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZForm.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZMasterForm.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZWaitForm.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDetailsForm.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZInputMessageBox.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.frmChooser.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZMessageBox.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Forms.ZDataForm.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Notifications.ZAlert.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0ne.WinUI.Properties.Resources.resources
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.GenerateResource.cache
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CoreCompileInputs.cache
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.csproj.CopyComplete
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.dll
+G:\DesktopApps\Zer0neLib\Zer0neWinUI\obj\Debug\Zer0neWinUI.pdb

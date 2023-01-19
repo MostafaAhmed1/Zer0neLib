@@ -18,6 +18,23 @@ namespace Zer0ne.WinUI.Controls
 
         public ZTextBox() : base(new TextBox())
         {
+            ZStyle = new ZControlStyle()
+            {
+                Radius = 8,
+                BorderSize = 2,
+                GradientAngle = ZTheme.ControlStyle.GradientAngle,
+                BorderCapStyle = ZTheme.ControlStyle.BorderCapStyle,
+                BorderLineStyle = ZTheme.ControlStyle.BorderLineStyle,
+                BorderCornersStyle = ZTheme.ControlStyle.BorderCornersStyle,
+                GradientColor1 = ZTheme.HintColor,
+                GradientColor2 = ZTheme.HintColor,
+                BackColor = ZTheme.ControlStyle.BackColor,
+                TextColor = ZTheme.ControlStyle.TextColor,
+                ActiveColor = ZTheme.ControlStyle.ActiveColor,
+                InactiveColor = ZTheme.ControlStyle.InactiveColor,
+                HintColor = ZTheme.ControlStyle.HintColor
+            };
+
             ctrl = (TextBox)base.ChildControl;
             ctrl.BorderStyle = BorderStyle.None;
             ctrl.TextChanged += Ctrl_TextChanged;

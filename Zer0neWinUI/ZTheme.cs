@@ -16,7 +16,7 @@ namespace Zer0ne.WinUI
         public static Font Fontz = new Font("Tahoma", 14F);
         public static Color BacgroundColor = Color.Aqua;
         public static Color SecondaryColor = Color.FromArgb(2, 205, 245);
-        public static Color ThirdColor = Color.FromArgb(2, 205, 245);
+        public static Color ThirdColor = Color.FromArgb(1, 136, 163);
         public static Color AccentColor = Color.FromArgb(25, 118, 216);
         public static Color TextColor = Color.White;
         public static Color HintColor = Color.Silver;

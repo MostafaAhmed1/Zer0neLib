@@ -17,10 +17,6 @@ namespace Zer0ne.WinUI.Controls
         #region -> Constructor 
         public ZGroup()
         {
-            this.DoubleBuffered = true;
-            base.Padding = new Padding(0);
-            Size = new Size(100, 100);
-            base.Font = ZTheme.Fontz;
             ZStyle = new ZControlStyle()
             {
                 Radius = 8,
@@ -38,8 +34,14 @@ namespace Zer0ne.WinUI.Controls
                 HintColor = ZTheme.ControlStyle.HintColor
             };
 
+            this.DoubleBuffered = true;
+            base.Padding = new Padding(0);
+            Size = new Size(100, 100);
+            base.Font = ZTheme.Fontz;
+
             zStyle.OnValueChanged += ZStyle_OnValueChanged;
             Recolor();
+            TitleBackColor = ZStyle.GradientColor2;
         }
 
         private void ZStyle_OnValueChanged(object sender, EventArgs e)

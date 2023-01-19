@@ -26,19 +26,6 @@ D:\Projects\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyCompl
 D:\Projects\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.dll
 D:\Projects\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.pdb
 D:\Projects\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.AssemblyReference.cache
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.dll.config
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.dll
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.pdb
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.dll
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.SqlServer.dll
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.dll
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.xml
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.SqlServer.xml
-G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.xml
-G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CoreCompileInputs.cache
-G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyComplete
-G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.dll
-G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.pdb
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\bin\Debug\Zer0neData.dll.config
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\bin\Debug\Zer0neData.dll
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\bin\Debug\Zer0neData.pdb
@@ -53,3 +40,16 @@ E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyC
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\obj\Debug\Zer0neData.dll
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\obj\Debug\Zer0neData.pdb
 E:\Zer0ne\Desktop Projects\Zer0ne Lib\Zer0neLib\obj\Debug\Zer0neLib.csproj.AssemblyReference.cache
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.dll.config
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.dll
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Zer0neData.pdb
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.dll
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.SqlServer.dll
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.dll
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.xml
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.SqlServer.xml
+G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.xml
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CoreCompileInputs.cache
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyComplete
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.dll
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.pdb

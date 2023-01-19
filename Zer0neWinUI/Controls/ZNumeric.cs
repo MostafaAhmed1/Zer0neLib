@@ -20,6 +20,23 @@ namespace Zer0ne.WinUI.Controls
         private BaseNumeric ctrl;
         public ZNumeric() : base(new BaseNumeric())
         {
+            ZStyle = new ZControlStyle()
+            {
+                Radius = 8,
+                BorderSize = 2,
+                GradientAngle = ZTheme.ControlStyle.GradientAngle,
+                BorderCapStyle = ZTheme.ControlStyle.BorderCapStyle,
+                BorderLineStyle = ZTheme.ControlStyle.BorderLineStyle,
+                BorderCornersStyle = ZTheme.ControlStyle.BorderCornersStyle,
+                GradientColor1 = ZTheme.HintColor,
+                GradientColor2 = ZTheme.HintColor,
+                BackColor = ZTheme.ControlStyle.BackColor,
+                TextColor = ZTheme.ControlStyle.TextColor,
+                ActiveColor = ZTheme.ControlStyle.ActiveColor,
+                InactiveColor = ZTheme.ControlStyle.InactiveColor,
+                HintColor = ZTheme.ControlStyle.HintColor
+            };
+
             ctrl = (BaseNumeric)base.ChildControl;
             ctrl.Size = new Size(100, 50);
             ctrl.Value = this.Value;
@@ -34,6 +51,7 @@ namespace Zer0ne.WinUI.Controls
             ctrl.ArrowColor = this.ArrowColor;
             ctrl.BorderColor = base.BackColor;
             ctrl.BackColor = base.BackColor;
+            ctrl.ForeColor = base.ForeColor;
             ctrl.Enabled = base.Enabled;
             ctrl.ValueChanged += ctrl_ValueChanged;
             ctrl.KeyDown += Ctrl_KeyDown;

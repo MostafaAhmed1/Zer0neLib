@@ -14,7 +14,6 @@ namespace Zer0ne.WinUI.Controls
         
         public ZComboBox() : base(new BaseComboBox())
         {
-
             ZStyle = new ZControlStyle()
             {
                 Radius = 8,

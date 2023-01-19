@@ -82,7 +82,7 @@ namespace Zer0ne.WinUI.Controls
             ctrl.BackColor = ZStyle.BackColor;
             ctrl.ForeColor = ZStyle.TextColor;
             plc.BackColor = ZStyle.BackColor;
-            plc.ForeColor = ZStyle.HintColor;
+            plc.ForeColor = ZStyle.TextColor;
         }
 
         public void AddItem(ItemPositionZ position, Image image, EventHandler action , bool showBorder = true)
@@ -159,12 +159,12 @@ namespace Zer0ne.WinUI.Controls
         {
             get
             {
-                return ZStyle.HintColor;
+                return ZStyle.TextColor;
             }
             set
             {
-                ZStyle.HintColor = value;
-                plc.ForeColor = ZStyle.HintColor;
+                ZStyle.TextColor = value;
+                plc.ForeColor = ZStyle.TextColor;
                 this.Invalidate();
             }
         }
@@ -824,7 +824,7 @@ namespace Zer0ne.WinUI.Controls
             txbx.BackColor = ZStyle.BackColor;
             txbx.ForeColor = ZStyle.TextColor;
             plc.BackColor = ZStyle.BackColor;
-            plc.ForeColor = ZStyle.HintColor;
+            plc.ForeColor = ZStyle.TextColor;
         }
 
         public void AddItem(PositionZ position, Image image, EventHandler action)
@@ -906,8 +906,8 @@ namespace Zer0ne.WinUI.Controls
             }
             set
             {
-                ZStyle.HintColor = value;
-                plc.ForeColor = ZStyle.HintColor;
+                ZStyle.TextColor = value;
+                plc.ForeColor = ZStyle.TextColor;
                 this.Invalidate();
             }
         }
