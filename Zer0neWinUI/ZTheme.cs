@@ -172,6 +172,7 @@ namespace Zer0ne.WinUI
         }
 
         #endregion
+
         public static GraphicsPath RoundedRect(Rectangle bounds, int radius)
         {
             int diameter = radius * 2;

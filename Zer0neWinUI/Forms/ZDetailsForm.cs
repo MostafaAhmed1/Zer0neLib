@@ -79,7 +79,10 @@ namespace Zer0ne.WinUI.Forms
 
         public void FillGrid<T>(List<T> data)
         {
-            grd.Rows.Clear();
+            grd.Invoke(new MethodInvoker(()=>
+            {
+                grd.Rows.Clear();
+            }));
             FillGridAction.Invoke(data);
         }
 
