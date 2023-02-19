@@ -50,6 +50,9 @@ namespace Zer0Test
 
             //controlBase1.Font = new Font("Tahoma", 32);
 
+            var frm = new ZForm();
+            //frm.RoundCorners = true;
+            frm.Show(this);
 
             ZTheme.AccentColor = Color.LightGreen;
         }
