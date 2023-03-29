@@ -60,7 +60,8 @@ namespace Zer0ne.WinUI.Forms
         {
             if (Environment.OSVersion.Version.Major >= 6)
             {
-                int enabled = 0; DwmIsCompositionEnabled(ref enabled);
+                int enabled = 0;
+                DwmIsCompositionEnabled(ref enabled);
                 return (enabled == 1) ? true : false;
             }
             return false;
