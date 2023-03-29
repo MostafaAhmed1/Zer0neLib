@@ -315,29 +315,6 @@ namespace Zer0ne.WinUI
                     ZNumeric num = (ZNumeric)item;
                     num.Value = num.Minimum;
                 }
-                else if (item is Panel)
-                {
-                    Panel pnl = (Panel)item;
-                    if (pnl.Name == "pnlTitel" || pnl.Name ==  "pnlBtns")
-                    {
-                        continue;
-                    }
-                    Remove_Data(pnl);
-                }
-                else if (item is GroupBox || item is GroupPanel)
-                {
-                    GroupBox grb = (GroupBox)item;
-                    Remove_Data(grb);
-                }
-                else if (item is TabControl)
-                {
-                    TabControl tabCtrl = (TabControl)item;
-
-                    foreach (TabPage pg in tabCtrl.TabPages)
-                    {
-                        Remove_Data(pg);
-                    }
-                }
                 else if (item is DateTimePicker)
                 {
                     DateTimePicker dtp = (DateTimePicker)item;
@@ -369,12 +346,44 @@ namespace Zer0ne.WinUI
                     Remove_Data(s.Panel1);
                     Remove_Data(s.Panel2);
                 }
+                else if (item is Panel)
+                {
+                    Panel pnl = (Panel)item;
+                    if (pnl.Name == "pnlTitel" || pnl.Name == "pnlBtns")
+                    {
+                        continue;
+                    }
+                    Remove_Data(pnl);
+                }
+                else if (item is GroupBox || item is GroupPanel)
+                {
+                    GroupBox grb = (GroupBox)item;
+                    Remove_Data(grb);
+                }
+                else if (item is TabControl)
+                {
+                    TabControl tabCtrl = (TabControl)item;
+
+                    foreach (TabPage pg in tabCtrl.TabPages)
+                    {
+                        Remove_Data(pg);
+                    }
+                }
+                else if (item is DevComponents.DotNetBar.SuperTabControl)
+                {
+                    DevComponents.DotNetBar.SuperTabControl tab = (DevComponents.DotNetBar.SuperTabControl)item;
+
+                    foreach (DevComponents.DotNetBar.SuperTabItem pg in tab.Tabs)
+                    {
+                        Remove_Data(pg.AttachedControl);
+                    }
+                }
 
             }
         }
 
         /// <summary>
-        ///     دالة تتفقد ماإذا كان هناك حقل لم يتم إدخال البيان المناسب له.
+        /// دالة تتفقد ماإذا كان هناك حقل لم يتم إدخال البيان المناسب له.
         /// </summary>
         /// <param name="Container">إسم الحاوية المطلوب فحصها.</param>
         /// <param name="Except">مصفوفة العناصر المطلوب إستبعادها.</param>

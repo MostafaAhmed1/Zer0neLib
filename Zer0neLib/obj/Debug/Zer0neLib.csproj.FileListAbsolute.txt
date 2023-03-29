@@ -53,3 +53,4 @@ G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CoreCompileInputs.
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyComplete
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.dll
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.pdb
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.AssemblyReference.cache

@@ -31,20 +31,20 @@ namespace Zer0Test
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
-            treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node6");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode15});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2});
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
+            treeNode4,
+            treeNode7});
             this.zButton1 = new Zer0ne.WinUI.Controls.ZButton();
             this.zCheckBox1 = new Zer0ne.WinUI.Controls.ZCheckBox();
             this.zDateTime1 = new Zer0ne.WinUI.Controls.ZDatePicker();
@@ -84,23 +84,23 @@ namespace Zer0Test
             // 
             // pnlTitel
             // 
-            this.pnlTitel.Size = new System.Drawing.Size(1017, 31);
+            this.pnlTitel.Size = new System.Drawing.Size(1011, 31);
             this.pnlTitel.Text = "Form1";
             // 
             // btnMinimize
             // 
             this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.Location = new System.Drawing.Point(915, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(909, 0);
             // 
             // btnMaximize
             // 
             this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.Location = new System.Drawing.Point(949, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(943, 0);
             // 
             // btnClose
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Location = new System.Drawing.Point(983, 0);
+            this.btnClose.Location = new System.Drawing.Point(977, 0);
             // 
             // zButton1
             // 
@@ -265,12 +265,10 @@ namespace Zer0Test
             // 
             // zSplitContainer1.Panel1
             // 
-            this.zSplitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(205)))), ((int)(((byte)(245)))));
             this.zSplitContainer1.Panel1.Controls.Add(this.zTreeView1);
             // 
             // zSplitContainer1.Panel2
             // 
-            this.zSplitContainer1.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(205)))), ((int)(((byte)(245)))));
             this.zSplitContainer1.Panel2.Controls.Add(this.zListBox1);
             this.zSplitContainer1.Size = new System.Drawing.Size(427, 274);
             this.zSplitContainer1.SplitterDistance = 189;
@@ -281,25 +279,25 @@ namespace Zer0Test
             // 
             this.zTreeView1.Location = new System.Drawing.Point(3, 3);
             this.zTreeView1.Name = "zTreeView1";
-            treeNode9.Name = "Node2";
-            treeNode9.Text = "Node2";
-            treeNode10.Name = "Node3";
-            treeNode10.Text = "Node3";
-            treeNode11.Name = "Node0";
-            treeNode11.Text = "Node0";
-            treeNode12.Name = "Node4";
-            treeNode12.Text = "Node4";
-            treeNode13.Name = "Node6";
-            treeNode13.Text = "Node6";
-            treeNode14.Name = "Node7";
-            treeNode14.Text = "Node7";
-            treeNode15.Name = "Node5";
-            treeNode15.Text = "Node5";
-            treeNode16.Name = "Node1";
-            treeNode16.Text = "Node1";
+            treeNode1.Name = "Node2";
+            treeNode1.Text = "Node2";
+            treeNode2.Name = "Node3";
+            treeNode2.Text = "Node3";
+            treeNode3.Name = "Node0";
+            treeNode3.Text = "Node0";
+            treeNode4.Name = "Node4";
+            treeNode4.Text = "Node4";
+            treeNode5.Name = "Node6";
+            treeNode5.Text = "Node6";
+            treeNode6.Name = "Node7";
+            treeNode6.Text = "Node7";
+            treeNode7.Name = "Node5";
+            treeNode7.Text = "Node5";
+            treeNode8.Name = "Node1";
+            treeNode8.Text = "Node1";
             this.zTreeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode16});
+            treeNode3,
+            treeNode8});
             this.zTreeView1.Size = new System.Drawing.Size(169, 268);
             this.zTreeView1.TabIndex = 13;
             // 
@@ -452,7 +450,7 @@ namespace Zer0Test
             this.zToggle2.Name = "zToggle2";
             this.zToggle2.OffText = "لا";
             this.zToggle2.OnText = "نعم";
-            this.zToggle2.Size = new System.Drawing.Size(138, 41);
+            this.zToggle2.Size = new System.Drawing.Size(100, 39);
             this.zToggle2.TabIndex = 29;
             this.zToggle2.UseVisualStyleBackColor = true;
             this.zToggle2.Value = false;
@@ -505,7 +503,7 @@ namespace Zer0Test
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1021, 632);
+            this.ClientSize = new System.Drawing.Size(1015, 649);
             this.Controls.Add(this.zTextBox2);
             this.Controls.Add(this.zTextBox1);
             this.Controls.Add(this.zToggle2);
