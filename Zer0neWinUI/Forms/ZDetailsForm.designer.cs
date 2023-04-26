@@ -31,7 +31,6 @@ namespace Zer0ne.WinUI.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTop = new ZPanel();
             this.txtSearchAll = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnAddNew = new Zer0ne.WinUI.Controls.ZButton();
@@ -144,8 +143,6 @@ namespace Zer0ne.WinUI.Forms
             // 
             this.grd.AllowUserToAddRows = false;
             this.grd.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.grd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.grd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grd.Dock = System.Windows.Forms.DockStyle.Fill;

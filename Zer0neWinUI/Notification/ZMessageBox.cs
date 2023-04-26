@@ -11,7 +11,6 @@ namespace Zer0ne.WinUI.Notifications
         {
             InitializeComponent();
 
-            RoundCorners = false;
             pnlBtns.ZStyle = new ZControlStyle()
             {
                 Radius = 0,

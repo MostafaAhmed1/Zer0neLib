@@ -91,6 +91,11 @@ namespace Zer0ne.WinUI
                 cmb.SelectedIndex = -1;
                 cmb.SelectedIndexChanged += (s, e) =>
                 {
+                    if (lstData == null)
+                    {
+                        return;
+                    }
+
                     if (cmb.SelectedIndex < 0 || cmb.SelectedIndex >= lstData.Rows.Count)
                     {
                         return;

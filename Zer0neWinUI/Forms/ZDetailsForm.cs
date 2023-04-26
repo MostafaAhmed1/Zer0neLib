@@ -61,7 +61,7 @@ namespace Zer0ne.WinUI.Forms
             txtSearchAll.WatermarkColor = ZTheme.AccentColor;
             txtSearchAll.Border.BorderColor = ZTheme.AccentColor;
 
-
+            grd.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
             AddGridColumns(columnsTextType);
         }
 
@@ -91,7 +91,6 @@ namespace Zer0ne.WinUI.Forms
             foreach (var c in columns)
             {
                 c.Value.HeaderText = c.Key;
-                c.Value.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
 
                 grd.Columns.Add(c.Value);
             }

@@ -29,8 +29,15 @@ namespace Zer0ne.WinUI.Forms
         }
 
         private void LoadingForm_Load(object sender, EventArgs e)
-        { 
-            OnFormShowed.Invoke(sender, e); 
+        {
+            //try
+            //{
+                OnFormShowed.Invoke(sender, e);
+            //}
+            //catch
+            //{
+            //    this.Close();
+            //}
         }
     }
 }

@@ -84,23 +84,23 @@ namespace Zer0Test
             // 
             // pnlTitel
             // 
-            this.pnlTitel.Size = new System.Drawing.Size(1011, 31);
+            this.pnlTitel.Size = new System.Drawing.Size(1013, 31);
             this.pnlTitel.Text = "Form1";
             // 
             // btnMinimize
             // 
             this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.Location = new System.Drawing.Point(909, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(911, 0);
             // 
             // btnMaximize
             // 
             this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.Location = new System.Drawing.Point(943, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(945, 0);
             // 
             // btnClose
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Location = new System.Drawing.Point(977, 0);
+            this.btnClose.Location = new System.Drawing.Point(979, 0);
             // 
             // zButton1
             // 
@@ -503,7 +503,7 @@ namespace Zer0Test
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1015, 649);
+            this.ClientSize = new System.Drawing.Size(1017, 635);
             this.Controls.Add(this.zTextBox2);
             this.Controls.Add(this.zTextBox1);
             this.Controls.Add(this.zToggle2);

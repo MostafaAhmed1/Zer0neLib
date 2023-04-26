@@ -156,7 +156,11 @@ namespace Zer0ne.WinUI.Controls
 
             // draw the text of the list item, Not doing this will only show the background color
             // you will need to get the text of item to display
-            string txt = lb.GetItemText(lb.Items[e.Index]);
+            string txt = "";
+            if (e.Index >= 0)
+            {
+                txt = lb.GetItemText(lb.Items[e.Index]);
+            }
             var txSize = g.MeasureString(txt, e.Font);
             PointF locTxt;
             if (RightToLeft == RightToLeft.No)

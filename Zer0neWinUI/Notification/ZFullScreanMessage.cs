@@ -21,6 +21,7 @@ namespace Zer0ne.WinUI.Notifications
             var frm = new ZMessageBox(TextZ, ButtonZ, IconZ);
             frm.TopLevel = true;
             frm.Text = "Zer0ne";
+            frm.Activate();
             Result = frm.ShowDialog();
             this.Close();
         }

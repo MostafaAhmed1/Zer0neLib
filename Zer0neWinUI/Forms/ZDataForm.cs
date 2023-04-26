@@ -15,11 +15,13 @@ namespace Zer0ne.WinUI.Forms
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZDataForm));
             this.pnlBtns = new Zer0ne.WinUI.Controls.ZPanel();
             this.btnDelete = new Zer0ne.WinUI.Controls.ZButton();
             this.btnExit = new Zer0ne.WinUI.Controls.ZButton();
             this.btnSave = new Zer0ne.WinUI.Controls.ZButton();
             this.pnlTitel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ep)).BeginInit();
             this.pnlBtns.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,16 +57,18 @@ namespace Zer0ne.WinUI.Forms
             this.pnlBtns.Margin = new System.Windows.Forms.Padding(1);
             this.pnlBtns.Name = "pnlBtns";
             this.pnlBtns.Padding = new System.Windows.Forms.Padding(1);
+            this.pnlBtns.ShowTitle = false;
             this.pnlBtns.Size = new System.Drawing.Size(549, 50);
             this.pnlBtns.TabIndex = 10;
+            this.pnlBtns.TitleAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnDelete
             // 
-            this.btnDelete.BorderSize = 0;
+            this.btnDelete.BorderSize = 1;
             this.btnDelete.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnDelete.FlatAppearance.BorderSize = 0;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Image = Zer0ne.WinUI.ZTheme.DeleteImage;
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.Location = new System.Drawing.Point(344, 1);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
@@ -74,15 +78,14 @@ namespace Zer0ne.WinUI.Forms
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "حــذف";
             this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
-            this.btnExit.BorderSize = 0;
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnExit.BorderSize = 1;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Image = Zer0ne.WinUI.ZTheme.ShutDownImage ;
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExit.Location = new System.Drawing.Point(1, 1);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
@@ -94,16 +97,16 @@ namespace Zer0ne.WinUI.Forms
             this.btnExit.Text = "إغـلاق";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnSave
             // 
-            this.btnSave.BorderSize = 0;
+            this.btnSave.BorderSize = 1;
             this.btnSave.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Image = Zer0ne.WinUI.ZTheme.SaveImage ;
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.Location = new System.Drawing.Point(449, 1);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
@@ -113,7 +116,7 @@ namespace Zer0ne.WinUI.Forms
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "حفظ";
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // ZDataForm
@@ -126,6 +129,7 @@ namespace Zer0ne.WinUI.Forms
             this.Controls.SetChildIndex(this.pnlBtns, 0);
             this.Controls.SetChildIndex(this.pnlTitel, 0);
             this.pnlTitel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ep)).EndInit();
             this.pnlBtns.ResumeLayout(false);
             this.ResumeLayout(false);
 

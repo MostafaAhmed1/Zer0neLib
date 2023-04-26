@@ -51,7 +51,7 @@ namespace Zer0ne.WinUI.Controls
             _defaultCellStyle.BackColor = ZStyle.InactiveColor;
             _defaultCellStyle.ForeColor = ZStyle.TextColor;
             _defaultCellStyle.SelectionBackColor = ZStyle.ActiveColor;
-            _defaultCellStyle.SelectionForeColor = ZStyle.GradientColor1;
+            _defaultCellStyle.SelectionForeColor = ZStyle.TextColor;
 
             _colCellStyle= new DataGridViewCellStyle();
             _colCellStyle.Font = ZTheme.Fontz;
@@ -66,7 +66,7 @@ namespace Zer0ne.WinUI.Controls
             _alternatingRowsDefaultCellStyle.BackColor = ZStyle.BackColor;
             _alternatingRowsDefaultCellStyle.ForeColor = ZStyle.TextColor;
             _alternatingRowsDefaultCellStyle.SelectionBackColor = ZStyle.ActiveColor;
-            _alternatingRowsDefaultCellStyle.SelectionForeColor = ZStyle.GradientColor1;
+            _alternatingRowsDefaultCellStyle.SelectionForeColor = ZStyle.TextColor;
 
             ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
