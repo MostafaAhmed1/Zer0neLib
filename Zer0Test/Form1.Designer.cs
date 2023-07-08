@@ -84,23 +84,23 @@ namespace Zer0Test
             // 
             // pnlTitel
             // 
-            this.pnlTitel.Size = new System.Drawing.Size(1013, 31);
+            this.pnlTitel.Size = new System.Drawing.Size(1029, 31);
             this.pnlTitel.Text = "Form1";
             // 
             // btnMinimize
             // 
             this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.Location = new System.Drawing.Point(911, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(927, 0);
             // 
             // btnMaximize
             // 
             this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.Location = new System.Drawing.Point(945, 0);
+            this.btnMaximize.Location = new System.Drawing.Point(961, 0);
             // 
             // btnClose
             // 
             this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.Location = new System.Drawing.Point(979, 0);
+            this.btnClose.Location = new System.Drawing.Point(995, 0);
             // 
             // zButton1
             // 
@@ -108,6 +108,7 @@ namespace Zer0Test
             this.zButton1.BorderSize = 1;
             this.zButton1.FlatAppearance.BorderSize = 0;
             this.zButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zButton1.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zButton1.Location = new System.Drawing.Point(203, 8);
             this.zButton1.Name = "zButton1";
             this.zButton1.Radius = 0;
@@ -161,6 +162,7 @@ namespace Zer0Test
             this.zListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.zListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.zListBox1.ErrorText = "";
+            this.zListBox1.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zListBox1.FormattingEnabled = true;
             this.zListBox1.IntegralHeight = false;
             this.zListBox1.ItemHeight = 40;
@@ -221,6 +223,7 @@ namespace Zer0Test
             // 
             this.zPanel1.Controls.Add(this.zButton2);
             this.zPanel1.Controls.Add(this.zButton1);
+            this.zPanel1.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zPanel1.Location = new System.Drawing.Point(19, 484);
             this.zPanel1.Name = "zPanel1";
             this.zPanel1.ShowTitle = false;
@@ -233,6 +236,7 @@ namespace Zer0Test
             this.zButton2.BorderSize = 1;
             this.zButton2.FlatAppearance.BorderSize = 0;
             this.zButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zButton2.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zButton2.Location = new System.Drawing.Point(12, 8);
             this.zButton2.Name = "zButton2";
             this.zButton2.Radius = 0;
@@ -354,7 +358,7 @@ namespace Zer0Test
             // zToggle1
             // 
             this.zToggle1.AutoSize = true;
-            this.zToggle1.ForeColor = System.Drawing.Color.White;
+            this.zToggle1.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zToggle1.Location = new System.Drawing.Point(187, 36);
             this.zToggle1.MinimumSize = new System.Drawing.Size(100, 35);
             this.zToggle1.Name = "zToggle1";
@@ -444,7 +448,7 @@ namespace Zer0Test
             // 
             // zToggle2
             // 
-            this.zToggle2.ForeColor = System.Drawing.Color.White;
+            this.zToggle2.Font = new System.Drawing.Font("Tahoma", 14F);
             this.zToggle2.Location = new System.Drawing.Point(461, 493);
             this.zToggle2.MinimumSize = new System.Drawing.Size(100, 20);
             this.zToggle2.Name = "zToggle2";
@@ -503,7 +507,7 @@ namespace Zer0Test
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1017, 635);
+            this.ClientSize = new System.Drawing.Size(1033, 674);
             this.Controls.Add(this.zTextBox2);
             this.Controls.Add(this.zTextBox1);
             this.Controls.Add(this.zToggle2);

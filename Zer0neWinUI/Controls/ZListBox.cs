@@ -110,7 +110,7 @@ namespace Zer0ne.WinUI.Controls
         }
 
         Font fnt = ZTheme.Fontz;
-        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new Font Font
         {
             get

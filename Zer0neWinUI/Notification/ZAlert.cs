@@ -157,10 +157,21 @@ namespace Zer0ne.WinUI.Notifications
 
 
             this.lblMsg.Text = msg;
-
-            this.Show();
+            var frmPrnt = Application.OpenForms[0];
+            if (frmPrnt.InvokeRequired)
+            {
+                frmPrnt.Invoke(new MethodInvoker(() =>
+                {
+                    this.Show(frmPrnt);
+                }));
+            }
+            else
+            {
+                this.Show(frmPrnt);
+            }
             this.action = ActionZ.start;
             this.timer.Interval = 1;
+            this.timer.Enabled = true;
             this.timer.Start();
         }
 

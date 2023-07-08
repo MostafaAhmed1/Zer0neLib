@@ -46,7 +46,7 @@ namespace Zer0ne.WinUI.Controls
         #region Properties
         
         Font fnt = ZTheme.Fontz;
-        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden), Category("Zer0ne")]
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Visible), Category("Zer0ne")]
         public new Font Font
         {
             get
@@ -149,6 +149,21 @@ namespace Zer0ne.WinUI.Controls
             set
             {
                 ZStyle.InactiveColor = value;
+                this.Invalidate();
+            }
+        }
+
+        [Browsable(true), Category("Zer0ne"), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public override Color ForeColor
+        {
+            get
+            {
+                return ZStyle.TextColor ;
+            }
+
+            set
+            {
+                ZStyle.TextColor = value;
                 this.Invalidate();
             }
         }

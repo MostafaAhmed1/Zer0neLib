@@ -77,8 +77,12 @@ namespace Zer0ne.Data
 
         public static DataTable ListToTable<T>(List<T> list) where T : class
         {
-            DataTable tbl = new DataTable(typeof(T).Name);
+            if (list.Count == 0)
+            {
+                return null;
+            }
 
+            DataTable tbl = new DataTable(typeof(T).Name);
             var pList = list[0].GetType().GetProperties();
 
             foreach (PropertyInfo info in pList)

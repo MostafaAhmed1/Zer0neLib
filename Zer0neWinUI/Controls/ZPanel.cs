@@ -129,7 +129,7 @@ namespace Zer0ne.WinUI.Controls
         }
 
         Font fnt = ZTheme.Fontz;
-        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new Font Font
         {
             get
@@ -153,6 +153,11 @@ namespace Zer0ne.WinUI.Controls
         
         protected override void OnPaint(PaintEventArgs e)
         {
+            if (Height < 5 || Width < 5)
+            {
+                base.OnPaint(e);
+                return;
+            }
             var smthClr = this.Parent.BackColor;
             var graph = e.Graphics;
             var rectContourSmooth = Rectangle.Inflate(this.ClientRectangle, -1, -1);
@@ -186,7 +191,6 @@ namespace Zer0ne.WinUI.Controls
                 TextRenderer.DrawText(graph, Text, this.Font, rectSmooth, this.ForeColor, Color.Transparent, TitleAlign.AsTextFormatFlags() | TextFormatFlags.LeftAndRightPadding | TextFormatFlags.EndEllipsis);
                 }
             }
-            base.OnPaint(e);
         }
     }
 }

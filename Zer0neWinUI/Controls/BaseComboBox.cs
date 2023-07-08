@@ -42,7 +42,6 @@ namespace Zer0ne.WinUI.Controls
             cbx.DropDownClosed += Cbx_DropDownClosed;
             cbx.SelectionChangeCommitted += Cbx_SelectionChangeCommitted;
 
-
             //Button: Icon
             btnIcon.Dock = DockStyle.Right;
             btnIcon.FlatStyle = FlatStyle.Flat;
@@ -162,8 +161,6 @@ namespace Zer0ne.WinUI.Controls
         private Button btnIcon;
         private Label lbl;
 
-
-
         [Browsable(false), Category("Zer0ne")]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int SelectionStart { get { return cbx.SelectionStart; } set { cbx.SelectionStart = value; } }
@@ -188,15 +185,12 @@ namespace Zer0ne.WinUI.Controls
         public bool FormattingEnabled { get { return cbx.FormattingEnabled; } set { cbx.FormattingEnabled = value; } }
 
         //--
-
-
         [Category("Zer0ne")]
         public new string Text
         {
             get { return cbx.Text; }
             set { cbx.Text = value; }
         }
-
 
         [DefaultValue(8)]
         [Localizable(true), Category("Zer0ne")]
@@ -224,7 +218,6 @@ namespace Zer0ne.WinUI.Controls
             }
         }
 
-
         [DefaultValue(106), Category("Zer0ne"), Browsable(true)]
         [EditorBrowsable(EditorBrowsableState.Always)]
         public int DropDownHeight
@@ -234,6 +227,7 @@ namespace Zer0ne.WinUI.Controls
         }
 
         [Category("Zer0ne")]
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int DropDownWidth
         {
             get { return cbx.DropDownWidth; }

@@ -49,6 +49,7 @@ G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.dll
 G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.xml
 G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\EntityFramework.SqlServer.xml
 G:\DesktopApps\Zer0neLib\Zer0neLib\bin\Debug\Newtonsoft.Json.xml
+G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.AssemblyReference.cache
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CoreCompileInputs.cache
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neLib.csproj.CopyComplete
 G:\DesktopApps\Zer0neLib\Zer0neLib\obj\Debug\Zer0neData.dll

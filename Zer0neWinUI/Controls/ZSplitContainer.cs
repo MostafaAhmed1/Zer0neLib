@@ -30,10 +30,18 @@ namespace Zer0ne.WinUI.Controls
                 HintColor = ZTheme.ControlStyle.HintColor
             };
 
+            Panel1.BackColorChanged += Panel1_BackColorChanged;
+            Panel2.BackColorChanged += Panel1_BackColorChanged;
             zStyle.OnValueChanged += ZStyle_OnValueChanged;
             Recolor();
         }
-        
+
+        private void Panel1_BackColorChanged(object sender, EventArgs e)
+        {
+            Panel2.BackColor = ZStyle.BackColor;
+            Panel1.BackColor = ZStyle.BackColor;
+        }
+
         private void ZStyle_OnValueChanged(object sender, EventArgs e)
         {
             Recolor();
@@ -57,9 +65,7 @@ namespace Zer0ne.WinUI.Controls
 
         void Recolor()
         {
-            base.BackColor = ZStyle.GradientColor1;
-            Panel2.BackColor = ZStyle.BackColor;
-            Panel1.BackColor = ZStyle.BackColor;
+            base.BackColor = ZStyle.BackColor;
             base.ForeColor = ZStyle.TextColor;
             //base.Font = ZTheme.Fontz;
         }
@@ -68,17 +74,14 @@ namespace Zer0ne.WinUI.Controls
         public new Color BackColor
         {
             get
-            {
-                Panel2.BackColor = ZStyle.BackColor;
-                Panel1.BackColor = ZStyle.BackColor;
+            { 
                 return ZStyle.GradientColor1;
             }
             set
             {
-                ZStyle.GradientColor1 = value;
-                Panel2.BackColor = ZStyle.BackColor;
-                Panel1.BackColor = ZStyle.BackColor;
+                ZStyle.GradientColor1 = value; 
                 base.BackColor = ZStyle.GradientColor1;
+                Panel1_BackColorChanged(this, new EventArgs());
                 Invalidate();
             }
         }

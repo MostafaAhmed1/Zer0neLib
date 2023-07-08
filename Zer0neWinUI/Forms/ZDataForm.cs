@@ -53,6 +53,7 @@ namespace Zer0ne.WinUI.Forms
             this.pnlBtns.Controls.Add(this.btnExit);
             this.pnlBtns.Controls.Add(this.btnSave);
             this.pnlBtns.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlBtns.Font = new System.Drawing.Font("Tahoma", 14F);
             this.pnlBtns.Location = new System.Drawing.Point(0, 328);
             this.pnlBtns.Margin = new System.Windows.Forms.Padding(1);
             this.pnlBtns.Name = "pnlBtns";
@@ -68,6 +69,7 @@ namespace Zer0ne.WinUI.Forms
             this.btnDelete.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnDelete.FlatAppearance.BorderSize = 0;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.Location = new System.Drawing.Point(344, 1);
@@ -83,8 +85,10 @@ namespace Zer0ne.WinUI.Forms
             // btnExit
             // 
             this.btnExit.BorderSize = 1;
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExit.Location = new System.Drawing.Point(1, 1);
@@ -106,6 +110,7 @@ namespace Zer0ne.WinUI.Forms
             this.btnSave.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Tahoma", 14F);
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.Location = new System.Drawing.Point(449, 1);

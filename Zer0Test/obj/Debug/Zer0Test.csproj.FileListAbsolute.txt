@@ -69,6 +69,7 @@ G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\FluentTransitions.xml
 G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\Newtonsoft.Json.xml
 G:\DesktopApps\Zer0neLib\Zer0Test\bin\Debug\EntityFramework.xml
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.AssemblyReference.cache
+G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.SuggestedBindingRedirects.cache
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Form1.resources
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.Properties.Resources.resources
 G:\DesktopApps\Zer0neLib\Zer0Test\obj\Debug\Zer0Test.csproj.GenerateResource.cache

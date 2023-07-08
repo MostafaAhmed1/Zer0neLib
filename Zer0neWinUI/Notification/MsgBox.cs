@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.IO;
+using System.Windows.Forms;
 using Zer0ne.WinUI.Notifications;
 using Zer0ne.WinUI.Utilities;
 
@@ -24,6 +25,11 @@ namespace Zer0ne.WinUI
 
         public static void Alert(string text, string title = "", AlertTypeZ type = AlertTypeZ.Success, PositionZ pos = PositionZ.BottomRight)
         {
+            if (File.Exists(Application.StartupPath + @"\catcat.wav"))
+            {
+                var player = new System.Media.SoundPlayer(Application.StartupPath + @"\catcat.wav");
+                player.Play();
+            }
             var frm = new ZAlert();
             frm.ShowAlert(text, title, type, pos);
         }

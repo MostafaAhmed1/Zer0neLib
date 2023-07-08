@@ -48,7 +48,6 @@ namespace Zer0ne.WinUI.Controls
         }
         #endregion
 
-
         #region Properties
         private BaseComboBox ctrl;
 
@@ -256,7 +255,7 @@ namespace Zer0ne.WinUI.Controls
             }
         }
         
-        [Browsable(false) , DefaultValue(106), Category("Zer0ne") , EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true ) , DefaultValue(106), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden), Category("Zer0ne")]
         public int DropDownHeight
         {
             get { return ctrl.DropDownHeight; }
@@ -267,6 +266,7 @@ namespace Zer0ne.WinUI.Controls
         }
 
         [Category("Zer0ne")]
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int DropDownWidth
         {
             get { return ctrl.DropDownWidth; }
